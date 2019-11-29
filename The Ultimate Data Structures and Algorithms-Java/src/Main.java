@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Main {
@@ -7,6 +8,11 @@ public class Main {
         list.addLast(20);
         list.addLast(30);
         list.addFirst(5);
-        System.out.println(list);
+        System.out.println(list.contains(10));
+        System.out.println(list.indexOf(10));
+        System.out.println(list.size());
+        var array = list.toArray();
+        System.out.println(Arrays.toString(array));
     }
+
 }
